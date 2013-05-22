@@ -1,0 +1,96 @@
+/* 
+    Document   : style.css
+    Created on : 04-dic-2012, 19:55:12
+    Author     : kewel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#header{
+    text-align: center;
+    border: 1px solid black;
+    height:100px;
+}
+.mainMenu{
+    text-align: center;
+    border: 1px solid black;
+    height:40px;
+}
+#footer{
+    text-align: center;
+    border: 1px solid black;
+    height:100px;
+}
+#contenedor{
+    
+    /*text-align: center;*/
+    width:70%;
+    margin-left:15%;
+    
+}
+#content-top{
+    height:100px;
+    border: 1px solid black;
+
+}
+#content{
+    border: 1px solid black;
+
+}
+#content-bottom{
+    height: 100px;
+    border: 1px solid black;
+
+}
+#sideFirst{
+    text-align: center;
+    border: 1px solid black;
+    float:left;
+    width:15%;
+}
+#sideLast{
+    text-align: center;
+    border: 1px solid black;
+    float:right;
+    width:15%;
+}
+.clear{
+    clear: both;
+    
+}
+#tablaContenido{
+    width: 700px;
+    border: 3px solid green;
+    margin: 10px 0 10px 2px;
+}
+.thContenido{
+    background:lightblue;
+    border-left: 1px solid purple;
+    border-right: 1px solid purple;
+}
+.tdContenido{
+    border: 1px solid purple;
+}
+.botonesDerecha{
+    background:blue;
+    width:150px;
+}
+.botonesDerecha a{
+    color:white;
+    margin-left:25px;
+}
+.publi{
+    width:55px;
+    text-align: center;
+    
+}
+.formulario{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: block;
+}
